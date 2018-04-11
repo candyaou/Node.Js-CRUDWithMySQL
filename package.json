@@ -1,0 +1,29 @@
+{
+  "name": "nodejsapiwithmysql",
+  "version": "1.0.0",
+  "description": "CRUD data with mySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candyaou/Node.Js-CRUDWithMySQL.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Ppn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candyaou/Node.Js-CRUDWithMySQL/issues"
+  },
+  "homepage": "https://github.com/candyaou/Node.Js-CRUDWithMySQL#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
