@@ -13,3 +13,10 @@ exports.update_a_product = function(req, res) {
 };
 exports.delete_a_product = function(req, res) {
 };
+
+exports.test_mysql = function(req, res, next) {
+	res.locals.connection.query('SELECT * from users', function (error, results, fields) {
+		if (error) throw error;
+		res.send(JSON.stringify({"status": 200, "error": null, "response": results}));
+	});
+};

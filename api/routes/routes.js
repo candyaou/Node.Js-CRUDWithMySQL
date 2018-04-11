@@ -8,4 +8,8 @@ module.exports = function(app) {
 	app.route('/products/:productId')
 	.put(route.update_a_product)
 	.delete(route.delete_a_product);
+
+	app.route('/')
+	.get(route.test_mysql);
+
 };

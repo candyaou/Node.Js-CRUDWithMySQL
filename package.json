@@ -14,7 +14,7 @@
   "keywords": [
     "Node.js"
   ],
-  "author": "Ppn",
+  "author": "Candyaou",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/candyaou/Node.Js-CRUDWithMySQL/issues"
@@ -24,6 +24,7 @@
     "nodemon": "^1.17.3"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
   }
 }
